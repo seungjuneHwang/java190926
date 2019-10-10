@@ -52,6 +52,14 @@ public class MainClass {
 		}
 		
 		// 교통 카드가 있으면 차타고 가고 없으면 걸어간다.
+		boolean isCard = true;
+		
+		if (isCard) {
+			System.out.println("차타고 가자!!");
+		} else {
+			System.out.println("에있~ 걸어가자!!");
+			
+		}
 		
 		
 	}
